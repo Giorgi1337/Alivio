@@ -23,6 +23,19 @@ header {
     padding: 0 275px;
 }
 
+.container2 {
+    width: 100%;
+    max-width: 1920px;
+    padding: 0 232px  0 275px;
+}
+
+.container3 {
+    width: 100%;
+    max-width: 1920px;
+    padding: 0 205px;
+}
+
+
 .navigation__inner {
     height: 85px;
     align-items: center;
@@ -102,12 +115,6 @@ header {
     font-size: 20px;
     padding: 20px 50px;
     color: #fff;
-}
-
-.container2 {
-    width: 100%;
-    max-width: 1920px;
-    padding: 0 232px  0 275px;
 }
 
 .release {
@@ -209,4 +216,39 @@ header {
     color: #424242;
     padding-top: 45px;
     padding-bottom: 48px;
+}
+
+.about__kayla {
+    background: #245852;
+}
+
+.inner__kayla {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 228px;
+    padding-bottom: 175px;
+}
+
+.kayla__h4 {
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.kayla__text {
+    padding-top: 33px;
+    padding-bottom: 57px;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.kayla__btn {
+    cursor: pointer;
+    background: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+    width: 240px;
+    height: 65px;
+    color: #fff;
+    font-size: 20px;
 }
