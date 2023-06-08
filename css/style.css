@@ -298,9 +298,9 @@ header {
 }
 
 .product__card {
-    width: 296.14px; 
+    margin-bottom: 150px;
     background: #FFFFFF;
-    border-radius: 3.72971px;
+    border-radius: 3px;
     margin-top: -380px;
     margin-left: -60px;
     width: 296px;
@@ -347,4 +347,28 @@ header {
 .card__ul {
     font-size: 10px;
     color: #000000;
+}
+
+footer {
+    background: #245852;
+}
+
+.footer__link {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding-top: 95px;
+    padding-bottom: 140px;
+}
+
+.footer__link > h4 {
+    font-weight: 900;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.footer__link > a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF;
 }
