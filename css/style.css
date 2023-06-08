@@ -78,6 +78,11 @@ header {
     color: #fff;
 }
 
+.start__btn:hover {
+    transition-delay: 0.4s;
+    color: black;
+}
+
 .header__bg {
     background-image: url(../img/heade-bg.png);
     width: 1920px;
@@ -251,4 +256,95 @@ header {
     height: 65px;
     color: #fff;
     font-size: 20px;
+}
+
+.product__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 168px;
+}
+
+.product__heading {
+    font-weight: 600;
+    font-size: 25px;
+    color: #424242;
+}
+
+.product__h4 {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    font-weight: 700;
+    font-size: 50px;
+    color: #01996D;
+}
+
+.product__text {
+    padding-bottom: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #484848;
+}
+
+.find__btn {
+    cursor: pointer;
+    width: 227px;
+    height: 65px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.product__card {
+    width: 296.14px; 
+    background: #FFFFFF;
+    border-radius: 3.72971px;
+    margin-top: -380px;
+    margin-left: -60px;
+    width: 296px;
+    height: 293px;
+    filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+}
+
+.card__inner {
+    display: flex;
+    padding: 22px 55px 30px 60px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__header {
+    padding-bottom: 8px;
+    font-size: 14px;
+    color: #000000;
+}
+
+.card__line {
+    width: 110px;
+    height: 0px;
+    border: 0.74px solid #000000;
+}
+
+.card__img {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.card__mikayla {
+    font-size: 11px;
+    color: #000000;
+}
+
+.card__h5 {
+    padding-top: 20px;
+    padding-bottom: 16px;
+    font-size: 15px;
+    color: #000000;
+}
+
+.card__ul {
+    font-size: 10px;
+    color: #000000;
 }
