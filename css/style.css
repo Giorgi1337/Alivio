@@ -17,24 +17,23 @@ body {
     height: 980px;
 } */
 
-/* .container1 {
+.container1 {
     width: 100%;
     max-width: 1920px;
     padding: 0 275px;
-} */
+}
 
 /* .container2 {
     width: 100%;
     max-width: 1920px;
     padding: 0 232px  0 275px;
-}
+} */
 
 .container3 {
     width: 100%;
     max-width: 1920px;
     padding: 0 205px;
-} */
-
+}
 
 /* .navigation__inner {
     height: 85px;
@@ -160,14 +159,17 @@ body {
 }
 
 .personalize__head > h6  {
+    color: #000000;
     margin-left: -63px;
 }
 
 .understand__head > h6 {
+    color: #000000;
     margin-left: -85px;
 }
 
 .alivio__head > h6 {
+    color: #000000;
     margin-left: -38px;
     margin-bottom: 18px;
 }
@@ -242,9 +244,6 @@ body {
 }
 
 .kayla__btn {
-    cursor: pointer;
-    background: #01996D;
-    border: 1px solid #01996D;
     border-radius: 4px;
     width: 240px;
     height: 65px;
@@ -281,11 +280,8 @@ body {
 }
 
 .find__btn {
-    cursor: pointer;
     width: 227px;
     height: 65px;
-    background: #01996D;
-    border: 1px solid #01996D;
     border-radius: 4px;
     color: #fff;
     font-size: 20px;
