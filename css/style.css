@@ -64,6 +64,7 @@ body {
 } */
 
 .btn-light{
+    background-color: #fff;
     padding: 13px 50px;
     font-weight: 400;
     font-size: 20px;
